@@ -1,0 +1,7 @@
+{
+  "name": "navApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
