@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { 
 
-  IonHeader, IonToolbar, IonTitle, IonContent,
-  IonButton, IonInput, IonItem, IonLabel 
+  IonHeader, IonToolbar, IonTitle, IonContent, IonButton,
+  IonBackButton, IonInput, IonItem, IonLabel, IonButtons
 
 } from '@ionic/angular/standalone';
 import { NavController } from '@ionic/angular';
@@ -13,8 +13,8 @@ import { FormsModule } from '@angular/forms';
   templateUrl: './create-reservation.page.html',
   standalone: true,
   imports: [
-    IonHeader, IonToolbar, IonTitle, IonContent, IonButton,
-    IonInput, IonItem, IonLabel, FormsModule
+    IonHeader, IonToolbar, IonTitle, IonContent, IonBackButton,
+    IonInput, IonItem, IonLabel, FormsModule, IonButtons, IonButton
   ]
 })
 export class CreateReservationPage {
