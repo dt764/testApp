@@ -17,6 +17,11 @@ describe('ClientsPage', () => {
     fixture.detectChanges();
   });
 
+  it('debería mostrar el título correcto', () => {
+    const title = fixture.nativeElement.querySelector('ion-title');
+    expect(title.textContent.trim()).toBe('Clients');
+  });
+
   // -----------------------------
   // 🧾 TEST 1: número de clientes
   // -----------------------------
