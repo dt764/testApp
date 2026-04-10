@@ -1,5 +1,7 @@
 import { Component, Input } from '@angular/core';
-import { IonHeader, IonToolbar, IonTitle, IonContent, IonButton } from '@ionic/angular/standalone';
+import {
+  IonHeader, IonToolbar, IonTitle,
+  IonContent, IonBackButton, IonButtons } from '@ionic/angular/standalone';
 import { NavController } from '@ionic/angular';
 
 @Component({
@@ -11,7 +13,8 @@ import { NavController } from '@ionic/angular';
     IonToolbar,
     IonTitle,
     IonContent,
-    IonButton
+    IonBackButton,
+    IonButtons
   ]
 })
 export class ClientDetailPage {
